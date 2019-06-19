@@ -1,0 +1,41 @@
+###This is the code for the challenge: https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+
+CODE:</br>
+#!/bin/python3</br>
+
+import math</br>
+import os</br>
+import random</br>
+import re</br>
+import sys</br>
+
+# Complete the jumpingOnClouds function below.</br>
+def jumpingOnClouds(c):</br>
+    soln=[]</br>
+    c.append(2)</br>
+    c.append(2)</br>
+    i=0</br>
+    while(c[i+2] != 2):</br>
+        if c[i+2]==0:</br>
+            i=i+2</br>
+        elif(c[i+1]==0):</br>
+            i=i+1</br>
+        soln.append(i)</br>
+    if c[i+1]==0:</br>
+        i=i+1</br>
+        soln.append(i)</br>
+    count=len(soln)</br>
+    return count</br>
+
+if __name__ == '__main__':</br>
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')</br>
+
+    n = int(input())</br>
+
+    c = list(map(int, input().rstrip().split()))</br>
+
+    result = jumpingOnClouds(c)</br>
+
+    fptr.write(str(result) + '\n')</br>
+
+    fptr.close()</br>
