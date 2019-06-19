@@ -5,20 +5,20 @@ https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playli
 
 Code Output:
 
-PS C:\Users\Raj\Desktop> python socks.py
-Enter the no of socks:9
-Enter the sock colour nos:
-10
-20
-20
-10
-10
-30
-50
-10
-20
-ar is: [10, 20, 20, 10, 10, 30, 50, 10, 20]
-ar1 is: [10, 20, 50, 30]
-The count is: [4, 3, 1, 1]
-The count is: [2, 1, 0, 0]
-The no of pairs are: 3
+PS C:\Users\Raj\Desktop> python socks.py</br>
+Enter the no of socks:9</br>
+Enter the sock colour nos:</br>
+10</br>
+20</br>
+20</br>
+10</br>
+10</br>
+30</br>
+50</br>
+10</br>
+20</br>
+ar is: [10, 20, 20, 10, 10, 30, 50, 10, 20]</br>
+ar1 is: [10, 20, 50, 30]</br>
+The count is: [4, 3, 1, 1]</br>
+The count is: [2, 1, 0, 0]</br>
+The no of pairs are: 3</br>
