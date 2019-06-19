@@ -1,6 +1,4 @@
-# Coding-Challenges
-This repo consists of some of my solutions to various interesting coding challenges I have solved.
-
+#Sock Merchant
 This code is my solution to:
 https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
