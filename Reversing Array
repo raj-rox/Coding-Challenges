@@ -1,0 +1,13 @@
+https://www.hackerrank.com/challenges/arrays-ds/problem
+def reverseArray(a):
+    b=[]
+    for i in range(len(a)):
+        b.append(a[len(a)-i-1])
+    return b
+
+
+a=[]
+n=int(input())
+for i in range(n):
+	a.append(int(input()))
+b=reversingarray(a,n)
