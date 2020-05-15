@@ -11,3 +11,4 @@ ans=repr(Reversor("Hell\0")+"\0")
 print(ans)
 
 #In python strings are immutable. So can't do it "in place". That extra place will have to be used unfortunately.
+#It can be done using slicing word[::-1]. However, that is also O(n+k) complexity.
