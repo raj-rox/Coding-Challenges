@@ -1,0 +1,11 @@
+def Reversor(str):
+    rev=""
+    word=list(str)
+    word.pop()
+    n=len(word)
+    while(n>0):
+        rev = rev  + word.pop()
+        n=n-1
+    return rev
+ans=Reversor("Hell\0")+"\0"
+print(ans)
